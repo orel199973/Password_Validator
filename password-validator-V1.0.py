@@ -11,7 +11,7 @@ colorama.init()
 pswd = sys.argv[1]
 
 """ Here we define our password policy using regular expressions using the re module """
-reg = "^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]"
+reg = "^(?=.{10,}[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]"
 match_re = re.compile(reg)
 res = re.search(match_re, pswd)
 

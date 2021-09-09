@@ -11,5 +11,6 @@ This is a PowerShell script that checks whether the password entered is strong /
 1. Download this script.
 2. Open a CMD or Terminal.
 3. Now navigate to the folder where the script is found coming from.
-4. And run the script as follows:
-![image](https://user-images.githubusercontent.com/47865329/132675880-c0bcc554-d1be-4ce3-8665-e24c3b495c9f.png)
+4. And run the script as follows: ![image](https://user-images.githubusercontent.com/47865329/132740334-5f706f02-8df1-4600-a062-751f5d5f4fea.png)
+
+

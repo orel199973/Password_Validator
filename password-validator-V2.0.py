@@ -10,6 +10,7 @@ colorama.init()
 
 """ argv pulls the user input from the outside and puts it into the "pswd" e variable using the sys module """
 pswd = sys.argv[1]
+""" This is a test condition if we use a flag. """
 if pswd == "-f":
     pswd=open(sys.argv[2], 'r').read()
 """ Here we define our password policy using regular expressions using the re module """

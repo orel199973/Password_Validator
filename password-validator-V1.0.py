@@ -17,6 +17,8 @@ res = re.search(match_re, pswd)
 
 """ These are the conditions that will check and print us the correct output """
 if res:
+    print(pswd)
     print (Fore.GREEN + "- Succeeded, The password is very strong(0)" )
 else:
+    print(pswd)
     print(Fore.RED + "- Weak password, Be sure to follow this password policy:\n(enter 10+ characters, use special characters, numbers and uppercase and lowercase letters).(1)")

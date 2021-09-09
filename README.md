@@ -9,9 +9,9 @@ This is a PowerShell script that checks whether the password entered is strong /
 
 # How to use:
 1. Download this script.
-2. Open a Powershell CLI.
-3. Run the following command to successfully run PowerShell scripts automatically:
-powershell -Command Set-ExecutionPolicy RemoteSigned
-4. Now navigate to the folder where the script is found coming from.
-5. And run the script as follows:
-![image](https://user-images.githubusercontent.com/47865329/132325512-1185c6be-6088-4486-9686-2253ac7fa130.png)
+2. Open a CMD or Terminal.
+3. Now navigate to the folder where the script is found coming from.
+4. And run the script as follows:
+![image](https://user-images.githubusercontent.com/47865329/132675880-c0bcc554-d1be-4ce3-8665-e24c3b495c9f.png)
+
+

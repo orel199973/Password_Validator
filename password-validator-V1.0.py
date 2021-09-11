@@ -1,21 +1,21 @@
 #!/usr/bin/python
 
-""" Attracting models that will help us build the script more easily """
+# Attracting models that will help us build the script more easily
 import sys
 import re
 import colorama
 from colorama import Fore
 colorama.init()
 
-""" argv pulls the user input from the outside and puts it into the "pswd" e variable using the sys module """
+# argv pulls the user input from the outside and puts it into the "pswd" e variable using the sys module
 pswd = sys.argv[1]
 
-""" Here we define our password policy using regular expressions using the re module """
+# Here we define our password policy using regular expressions using the re module
 reg = "^(?=.[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{10,}"
 match_re = re.compile(reg)
 res = re.search(match_re, pswd)
 
-""" These are the conditions that will check and print us the correct output """
+# These are the conditions that will check and print us the correct output 
 if res:
     print(pswd)
     print (Fore.GREEN + "- Succeeded, The password is very strong(0)" )
